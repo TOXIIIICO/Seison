@@ -5,11 +5,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID","20551716"))
-API_HASH = getenv("API_HASH","564355da021dc5739c01f33fb015eaf1")
+API_ID = int(getenv("API_ID","19525325"))
+API_HASH = getenv("API_HASH","ddc123dd015945669f20498bd0a50409")
 
-BOT_TOKEN = getenv("BOT_TOKEN","6222040155:AAEba5H1vEFNFhke5N_grG-DrGspEf4elUA")
+BOT_TOKEN = getenv("BOT_TOKEN","6639481931:AAFFlma4iOOMujPfFuOpf8c3tC7y51FNiI0")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://mohamedhelal:mohamedhelal@cluster0.qhhuj2p.mongodb.net/?retryWrites=true&w=majority")
 
-OWNER_ID = int(getenv("OWNER_ID", 6753126490))
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/O_A_H2")
+OWNER_ID = int(getenv("OWNER_ID", 1356469075))
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/KINGVEGA")
