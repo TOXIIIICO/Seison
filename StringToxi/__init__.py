@@ -19,7 +19,7 @@ logging.getLogger("telethon").setLevel(logging.ERROR)
 LOGGER = logging.getLogger(__name__)
 
 mongo = MongoCli(config.MONGO_DB_URI)
-db = mongo.StringToxi
+db = mongo.StringGen
 
 
 class Anony(Client):

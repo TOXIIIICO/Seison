@@ -3,8 +3,8 @@ import importlib
 
 from pyrogram import idle
 
-from StringToxi import LOGGER, Anony
-from StringToxi.modules import ALL_MODULES
+from StringGen import LOGGER, Anony
+from StringGen.modules import ALL_MODULES
 
 
 async def anony_boot():
@@ -15,7 +15,7 @@ async def anony_boot():
         quit(1)
 
     for all_module in ALL_MODULES:
-        importlib.import_module("StringToxi.modules." + all_module)
+        importlib.import_module("StringGen.modules." + all_module)
 
     LOGGER.info(f"@{Anony.username} Started.")
     await idle()
